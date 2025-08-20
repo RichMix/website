@@ -29,7 +29,7 @@ export default function Home() {
               <Button asChild size="lg" className="bg-seu-gold text-seu-navy hover:bg-yellow-500 text-lg px-8 py-6">
                 <Link href="/contact">Book a Consultation</Link>
               </Button>
-              <Button asChild variant="outline" size="lg" className="border-2 border-white text-white hover:bg-white hover:text-seu-navy text-lg px-8 py-6">
+              <Button asChild variant="outline" size="lg" className="border-2 border-white text-seu-navy hover:bg-white hover:text-seu-navy text-lg px-8 py-6">
                 <Link href="/services">Our Services</Link>
               </Button>
             </div>
