@@ -313,12 +313,12 @@ export default function Home() {
               {
                 title: "Graduation Ceremony",
                 attendees: "2,500 graduates & families",
-                image: "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400"
+                image: "https://images.unsplash.com/photo-1590012314607-cda9d9b699ae?q=80&w=1742&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&fit=crop&w=600&h=400"
               },
               {
                 title: "Food & Wine Festival",
                 attendees: "4,500 attendees • Weekend event",
-                image: "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400"
+                image: "https://images.unsplash.com/photo-1505426101273-b50e6f3ff9a7?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&h=400"
               }
             ].map((event, index) => (
               <div key={index} className="relative group overflow-hidden rounded-xl shadow-lg">
