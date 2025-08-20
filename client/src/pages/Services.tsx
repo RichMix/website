@@ -241,7 +241,7 @@ export default function Services() {
             <Button asChild size="lg" className="bg-seu-gold text-seu-navy hover:bg-yellow-500">
               <Link href="/quote">Get Free Quote</Link>
             </Button>
-            <Button asChild variant="outline" size="lg" className="border-2 border-white text-white hover:bg-white hover:text-seu-navy">
+            <Button asChild variant="outline" size="lg" className="border-2 border-white text-seu-navy hover:bg-white hover:text-seu-navy">
               <Link href="/contact">Contact Us</Link>
             </Button>
           </div>
