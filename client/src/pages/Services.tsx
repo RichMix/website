@@ -10,7 +10,7 @@ export default function Services() {
       <section className="relative py-20 bg-gradient-to-r from-seu-navy/90 to-seu-navy/60">
         <div className="absolute inset-0">
           <img 
-            src="https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&h=800" 
+            src="https://images.unsplash.com/photo-1485230405346-71acb9518d9c?q=80&w=1788&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1920&h=800" 
             alt="Professional security team" 
             className="w-full h-full object-cover"
           />
