@@ -20,7 +20,7 @@ export default function Home() {
           <div className="max-w-4xl">
             <h1 className="text-5xl lg:text-7xl font-bold text-white mb-6 leading-tight">
               PROTECTING WHAT<br />
-              <span className="text-seu-gold">MATTERS MOST!</span>
+              <span className="text-seu-gold">MATTERS MOST</span>
             </h1>
             <p className="text-xl lg:text-2xl text-white mb-8 max-w-2xl">
               Your community, your events, your peace of mind. Professional security services you can trust.
