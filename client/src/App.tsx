@@ -4,6 +4,7 @@ import { QueryClientProvider } from "@tanstack/react-query";
 import { Toaster } from "@/components/ui/toaster";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import Layout from "@/components/Layout";
+import Construction from "@/pages/Construction";
 import Home from "@/pages/Home";
 import Services from "@/pages/Services";
 import About from "@/pages/About";
@@ -16,8 +17,11 @@ import NotFound from "@/pages/not-found";
 
 function Router() {
   return (
-    <Layout>
-      <Switch>
+    <Switch>
+      <Route path="/" component={Construction} />
+      {/* Temporarily commenting out other routes while under construction */}
+      {/* 
+      <Layout>
         <Route path="/" component={Home} />
         <Route path="/services" component={Services} />
         <Route path="/about" component={About} />
@@ -27,8 +31,9 @@ function Router() {
         <Route path="/quote" component={Quote} />
         <Route path="/805-safe" component={Initiative} />
         <Route component={NotFound} />
-      </Switch>
-    </Layout>
+      </Layout>
+      */}
+    </Switch>
   );
 }
 
