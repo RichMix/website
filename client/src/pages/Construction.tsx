@@ -2,7 +2,7 @@ import seuLogo from "@assets/lojo_1756235615959.png";
 
 export default function Construction() {
   return (
-    <div className="min-h-screen bg-gradient-to-b from-navy via-navy to-navy/95 flex items-center justify-center px-4">
+    <div className="min-h-screen bg-gradient-to-br from-blue-900 via-blue-800 to-blue-900 flex items-center justify-center px-4">
       <div className="text-center max-w-4xl mx-auto">
         {/* SEU Logo */}
         <div className="mb-12">
