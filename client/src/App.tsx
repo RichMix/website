@@ -17,11 +17,8 @@ import NotFound from "@/pages/not-found";
 
 function Router() {
   return (
-    <Switch>
-      <Route path="/" component={Construction} />
-      {/* Temporarily commenting out other routes while under construction */}
-      {/* 
-      <Layout>
+    <Layout>
+      <Switch>
         <Route path="/" component={Home} />
         <Route path="/services" component={Services} />
         <Route path="/about" component={About} />
@@ -31,9 +28,8 @@ function Router() {
         <Route path="/quote" component={Quote} />
         <Route path="/805-safe" component={Initiative} />
         <Route component={NotFound} />
-      </Layout>
-      */}
-    </Switch>
+      </Switch>
+    </Layout>
   );
 }
 
